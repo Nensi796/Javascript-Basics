@@ -16,7 +16,7 @@ console.log("sorted-Object-keys-", sortedObjectKeys);
 
 
 
-// ascending order 
+// ascending order/ 
 const sortedNumericalObject = Object.fromEntries(Object.entries(numericalObject).sort(([x, a], [y, b]) => a - b));
 console.log("sortedNumericalObject", sortedNumericalObject);
 
