@@ -37,12 +37,12 @@ console.log("deleted property from object ", numericalObject);
 // filtering object properties 
 
 
-const matched = ["first","second"];
+const matched = ["first", "second"];
 
-const filteredObject = Object.fromEntries(Object.entries(numericalObject).filter(([d,f]) => f > 210));
-const filteredObjectKeys = Object.fromEntries(Object.entries(numericalObject).filter(([d,f]) => matched.includes(d)));
-console.log("filtered-object",filteredObject)
-console.log("filtered-object-keys",filteredObjectKeys)
+const filteredObject = Object.fromEntries(Object.entries(numericalObject).filter(([d, f]) => f > 210));
+const filteredObjectKeys = Object.fromEntries(Object.entries(numericalObject).filter(([d, f]) => matched.includes(d)));
+console.log("filtered-object", filteredObject)
+console.log("filtered-object-keys", filteredObjectKeys)
 
 
 
@@ -68,3 +68,4 @@ console.log("maximum", maximum);
 
 const Minimum = numericalArray.reduce((a, b) => Math.min(a, b), Infinity);
 console.log("Minimum", Minimum);
+
